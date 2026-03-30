@@ -84,8 +84,8 @@ a:hover {
 
 .navbar {
   background-color: var(--bg-dark) !important;
-  font-family: "Space Grotesk", sans-serif;
   border-bottom: 1px solid var(--text-muted);
+  box-shadow: none !important;
 }
 .navbar .navbar-brand,
 .nav-item .nav-link {
@@ -127,7 +127,7 @@ a:hover {
   background: var(--accent-color);
   box-shadow: var(--box-shadow);
   color: var(--bg-dark);
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Space Mono", monospace;
 }
 .primary-link:hover {
   background: var(--text-muted);
@@ -135,7 +135,7 @@ a:hover {
 }
 .secondary-link {
   border: 2px solid var(--accent-color);
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Space Mono", monospace;
   color: var(--accent-color);
 }
 .container {
@@ -156,7 +156,7 @@ a:hover {
 .btn-branding {
   background: var(--accent-color);
   box-shadow: var(--box-shadow);
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Space Mono", monospace;
   border-radius: 6px;
   color: var(--bg-dark);
   font-size: 18px;
@@ -173,7 +173,7 @@ a:hover {
   line-height: 1;
 }
 .projects h3 {
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Space Mono", monospace;
   opacity: 100;
 }
 .projects img {
@@ -191,9 +191,9 @@ a:hover {
 }
 .connect-branding {
   width: 95%;
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Space Mono", monospace;
   font-weight: bolder;
-  color: var(--font-color);
+  color: var(--accent-color);
   border-radius: 6px;
   border: 2px solid var(--accent-color);
   text-align: left;
@@ -254,7 +254,7 @@ footer .social-links a:hover {
 .footer-btn {
   background: var(--accent-color);
   box-shadow: var(--box-shadow);
-  font-family: "JetBrains Mono", monospace;
+  font-family: "Space Mono", monospace;
   border-radius: 6px;
   color: var(--bg-dark);
   font-size: 18px;
