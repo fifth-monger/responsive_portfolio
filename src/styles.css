@@ -254,8 +254,8 @@ p {
   font-weight: 700;
   font-size: 16px;
   color: var(--accent);
-  background: transparent;
-  border: 1px solid var(--accent-dim);
+  background: var(--bg-surface);
+  border: 1px solid var(--text-muted);
   border-radius: var(--radius);
   padding: 14px 28px;
   text-align: left;
@@ -267,6 +267,19 @@ p {
   color: var(--bg);
   transform: translateX(8px);
 }
+.form-control {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--text-muted);
+  color: var(--text);
+  border-radius: var(--radius);
+}
+.form-control:focus {
+  background-color: var(--bg-surface);
+  border-color: var(--accent);
+  color: var(--text);
+  box-shadow: 0 0 0 2px rgba(57, 211, 83, 0.15);
+}
+
 footer {
   background: var(--bg-surface);
   width: 100%;
